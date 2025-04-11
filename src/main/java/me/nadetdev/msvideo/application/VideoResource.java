@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/video")
+@RequestMapping("/videoapp/video")
 public class VideoResource {
 
     private final VideoService videoService;
